@@ -1,10 +1,6 @@
 class Smartphone extends Product {
     @Override
-    String setName() {
+    String getName() {
         return "Samsung S10+ Limited Edition";
-    }
-    @Override
-    Date setExpiredDate() {
-        return new Date(); // ???????
     }
 }
