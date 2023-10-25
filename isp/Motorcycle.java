@@ -1,5 +1,4 @@
-class Motorcycle implements VehicleInterface{
-    // Can be implemented
+class Motorcycle implements VehicleInterface {
     @Override
     public void drive() {
     }
@@ -8,9 +7,5 @@ class Motorcycle implements VehicleInterface{
     }
     @Override
     public void refuel() {
-    }
-    // Can not be implemented
-    @Override
-    public void openDoors() {
     }
 }
