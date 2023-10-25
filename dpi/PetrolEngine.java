@@ -1,6 +1,6 @@
 package dpi;
 
-class DieselEngine implements Engine{
+class PetrolEngine implements EngineInterface {
     @Override
     public void start() {
     }
